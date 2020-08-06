@@ -10,10 +10,6 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
-		<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-<link rel="manifest" href="/site.webmanifest">
 	</head>
 	<body class="is-preload">
 
@@ -26,8 +22,9 @@
 						<div id="logo">
 							
 							<h1 id="title">Introduction to Python </h1>
-							<p><i>for use in UoM Halls of Residences</i></p>
-							<p><i>developed by Kyle Fogarty</i></p>
+							<p><i>Developed by Kyle Fogarty for use</i></p>
+							<p><i>in UoM Halls of Residences</i></p>
+							
 							
 						</div>
 
@@ -37,6 +34,10 @@
 								<li><a href="#intro" id="top-link"><span class="icon solid  fa-home">Welcome</span></a></li>
 								<li><a href="#lesson_1" id="lesson_1-link"><span class="icon solid fa-book">Lesson 1</span></a></li>
 								<li><a href="#lesson_2" id="lesson_2-link"><span class="icon solid fa-book">Lesson 2</span></a></li>
+								<li><a href="#lesson_3" id="lesson_3-link"><span class="icon solid fa-book">Lesson 3</span></a></li>
+								<li><a href="#lesson_4" id="lesson_4-link"><span class="icon solid fa-book">Lesson 4</span></a></li>
+								<li><a href="#lesson_5" id="lesson_5-link"><span class="icon solid fa-book">Lesson 5</span></a></li>
+								<li><a href="#lesson_6" id="lesson_6-link"><span class="icon solid fa-book">Lesson 6</span></a></li>
 								<li><a href="#contact" id="contact-link"><span class="icon solid  fa-envelope">Contact</span></a></li>
 							</ul>
 						</nav>
@@ -99,13 +100,13 @@
 							</header>
 
 							<div class="video-container">
-								<iframe width="560" height="315" src="https://www.youtube.com/embed/9YffrCViTVk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+								<iframe width="560" height="315" src="https://www.youtube.com/embed/IQAz0hOrvDg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 							</div>
 
 							<p>Lesson 1: Introduction to Programming <br> 
 							In this lesson we introduce what a program, variable and function is and we take a look at a simple usecase for the print() and input() function in Python.<br>
 							<br>
-							Get started by launching <a href="https://repl.it/@enaard/Python-3">online Python 3</a>
+							Get started by launching <a href="https://repl.it/@enaard/Python-3"> online Python 3</a>
 							
 							</p>
 
@@ -140,7 +141,7 @@
 
 								<script>
 								// Set the date we're counting down to
-								var countDownDate = new Date("Sep 27, 2020 18:00:00").getTime();
+								var countDownDate = new Date("Sep 30, 2020 12:00:00").getTime();
 								
 								// Update the count down every 1 second
 								var x = setInterval(function() {
@@ -169,6 +170,200 @@
 								}, 1000);
 								</script>
 					</section>
+
+					<!-- Lesson 3 : -->
+					<section id="lesson_3" class="two">
+		<div class="container">
+
+			<header>
+				<h2>Lesson 3</h2>
+			</header>
+			
+				<!--
+				<iframe width="600" height="400" src="https://www.youtube.com/embed/9YffrCViTVk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				<p>Vitae natoque dictum etiam semper magnis enim feugiat convallis convallis
+				egestas rhoncus ridiculus in quis risus amet curabitur tempor orci penatibus.
+				Tellus erat mauris ipsum fermentum etiam vivamus eget. Nunc nibh morbi quis
+				fusce hendrerit lacus ridiculus.</p>
+				<footer>
+					<a href="https://drive.google.com/uc?id=1zS9-NjIxim3kXjhZQSWTHTrfKlL1uP59&export=download" class="button scrolly">Download 
+					</a>
+				</footer>
+				-->
+				<p id="demo_1"></p>
+
+				<script>
+				// Set the date we're counting down to
+				var countDownDate_1 = new Date("Oct 7, 2020 18:00:00").getTime();
+				
+				// Update the count down every 1 second
+				var x_1 = setInterval(function() {
+				
+				  // Get today's date and time
+				  var now_1 = new Date().getTime();
+				
+				  // Find the distance between now and the count down date
+				  var distance_1 = countDownDate_1 - now_1;
+				
+				  // Time calculations for days, hours, minutes and seconds
+				  var days_1 = Math.floor(distance_1 / (1000 * 60 * 60 * 24));
+				  var hours_1 = Math.floor((distance_1 % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+				  var minutes_1 = Math.floor((distance_1 % (1000 * 60 * 60)) / (1000 * 60));
+				  var seconds_1 = Math.floor((distance_1 % (1000 * 60)) / 1000);
+				
+				  // Display the result in the element with id="demo"
+				  document.getElementById("demo_1").innerHTML = "This lesson will be availble in: "+ days_1 + "d " + hours_1 + "h "
+				  + minutes_1 + "m " + seconds_1 + "s ";
+				
+				  // If the count down is finished, write some text
+				  if (distance_1 < 0) {
+					clearInterval(x_1);
+					document.getElementById("demo_1").innerHTML = "EXPIRED";
+				  }
+				}, 1000);
+				</script>
+
+					</section>
+					
+					<!-- Lesson 4 : -->
+					<section id="lesson_4" class="two">
+	<div class="container">
+
+		<header>
+			<h2>Lesson 4</h2>
+		</header>
+		
+		
+			<p id="demo_4"></p>
+
+			<script>
+			// Set the date we're counting down to
+			var countDownDate_4 = new Date("Oct 14, 2020 18:00:00").getTime();
+			
+			// Update the count down every 1 second
+			var x_4 = setInterval(function() {
+			
+			  // Get today's date and time
+			  var now_4 = new Date().getTime();
+			
+			  // Find the distance between now and the count down date
+			  var distance_4 = countDownDate_4 - now_4;
+			
+			  // Time calculations for days, hours, minutes and seconds
+			  var days_4 = Math.floor(distance_4 / (1000 * 60 * 60 * 24));
+			  var hours_4 = Math.floor((distance_4 % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+			  var minutes_4 = Math.floor((distance_4 % (1000 * 60 * 60)) / (1000 * 60));
+			  var seconds_4 = Math.floor((distance_4 % (1000 * 60)) / 1000);
+			
+			  // Display the result in the element with id="demo"
+			  document.getElementById("demo_4").innerHTML = "This lesson will be availble in: "+ days_4 + "d " + hours_4 + "h "
+			  + minutes_4 + "m " + seconds_4 + "s ";
+			
+			  // If the count down is finished, write some text
+			  if (distance_4 < 0) {
+				clearInterval(x_4);
+				document.getElementById("demo_4").innerHTML = "EXPIRED";
+			  }
+			}, 1000);
+			</script>
+
+					</section>
+
+					<!-- Lesson 5 : -->
+					<section id="lesson_5" class="two">
+						<div class="container">
+					
+							<header>
+								<h2>Lesson 5</h2>
+							</header>
+							
+							
+								<p id="demo_5"></p>
+					
+								<script>
+								// Set the date we're counting down to
+								var countDownDate_5 = new Date("Oct 21, 2020 18:00:00").getTime();
+								
+								// Update the count down every 1 second
+								var x_5 = setInterval(function() {
+								
+								  // Get today's date and time
+								  var now_5 = new Date().getTime();
+								
+								  // Find the distance between now and the count down date
+								  var distance_5 = countDownDate_5 - now_5;
+								
+								  // Time calculations for days, hours, minutes and seconds
+								  var days_5 = Math.floor(distance_5 / (1000 * 60 * 60 * 24));
+								  var hours_5 = Math.floor((distance_5 % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+								  var minutes_5 = Math.floor((distance_5 % (1000 * 60 * 60)) / (1000 * 60));
+								  var seconds_5 = Math.floor((distance_5 % (1000 * 60)) / 1000);
+								
+								  // Display the result in the element with id="demo"
+								  document.getElementById("demo_5").innerHTML = "This lesson will be availble in: "+ days_5 + "d " + hours_5 + "h "
+								  + minutes_5 + "m " + seconds_5 + "s ";
+								
+								  // If the count down is finished, write some text
+								  if (distance_5 < 0) {
+									clearInterval(x_5);
+									document.getElementById("demo_5").innerHTML = "EXPIRED";
+								  }
+								}, 1000);
+								</script>
+					
+										</section>
+
+					<!-- Lesson 6 : -->
+					<section id="lesson_6" class="two">
+						<div class="container">
+					
+							<header>
+								<h2>Lesson 6</h2>
+							</header>
+							
+							
+								<p id="demo_6"></p>
+					
+								<script>
+								// Set the date we're counting down to
+								var countDownDate_6 = new Date("Oct 28, 2020 18:00:00").getTime();
+								
+								// Update the count down every 1 second
+								var x_6 = setInterval(function() {
+								
+								  // Get today's date and time
+								  var now_6 = new Date().getTime();
+								
+								  // Find the distance between now and the count down date
+								  var distance_6 = countDownDate_6 - now_6;
+								
+								  // Time calculations for days, hours, minutes and seconds
+								  var days_6 = Math.floor(distance_6 / (1000 * 60 * 60 * 24));
+								  var hours_6 = Math.floor((distance_6 % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+								  var minutes_6 = Math.floor((distance_6 % (1000 * 60 * 60)) / (1000 * 60));
+								  var seconds_6 = Math.floor((distance_6 % (1000 * 60)) / 1000);
+								
+								  // Display the result in the element with id="demo"
+								  document.getElementById("demo_6").innerHTML = "This lesson will be availble in: "+ days_6 + "d " + hours_6 + "h "
+								  + minutes_6 + "m " + seconds_6 + "s ";
+								
+								  // If the count down is finished, write some text
+								  if (distance_6 < 0) {
+									clearInterval(x_6);
+									document.getElementById("demo_6").innerHTML = "EXPIRED";
+								  }
+								}, 1000);
+								</script>
+					
+										</section>
+
+
+
+
+
+
+
+
 
 
 				<!-- Contact -->
