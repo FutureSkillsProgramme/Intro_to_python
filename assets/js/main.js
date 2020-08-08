@@ -25,7 +25,6 @@
 				$body.removeClass('is-preload');
 			}, 100);
 		});
-
 	// Nav.
 		var $nav_a = $nav.find('a');
 
@@ -121,3 +120,4 @@
 				});
 
 })(jQuery);
+
